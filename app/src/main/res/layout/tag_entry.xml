@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+	android:layout_marginTop="@dimen/component_vertical_margin"
+	android:layout_marginBottom="@dimen/activity_vertical_margin"
+	android:theme="@style/AppTheme">
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/session_parameters"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_marginHorizontal="@dimen/component_horizontal_margin"
+		android:layout_marginVertical="@dimen/component_vertical_margin">
+
+		<TextView
+			android:id="@+id/text_id_label"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:labelFor="@id/text_person"
+			android:text="@string/label_tag_id"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<TextView
+			android:id="@+id/text_id"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginHorizontal="@dimen/label_horizontal_margin"
+			android:ellipsize="start"
+			android:singleLine="true"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			app:layout_constrainedWidth="true"
+			app:layout_constraintBaseline_toBaselineOf="@id/text_id_label"
+			app:layout_constraintEnd_toStartOf="@id/button_info"
+			app:layout_constraintStart_toEndOf="@id/text_id_label"
+			tools:text="01234567890" />
+		<!-- note: if there is an overflow, we need to make sure to show RHS not LHS of text -->
+
+		<EditText
+			android:id="@+id/tag_entry"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginHorizontal="@dimen/label_horizontal_margin"
+			android:cursorVisible="true"
+			android:focusable="true"
+			android:hint="@null"
+			android:importantForAutofill="no"
+			android:inputType="number"
+			android:maxLines="1"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:visibility="gone"
+			app:layout_constraintBaseline_toBaselineOf="@id/text_id_label"
+			app:layout_constraintEnd_toStartOf="@id/button_info"
+			app:layout_constraintStart_toEndOf="@id/text_id_label"
+			tools:text="01234567890" />
+
+		<ImageButton
+			android:id="@+id/button_info"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginEnd="@dimen/component_horizontal_margin"
+			android:layout_marginRight="@dimen/component_horizontal_margin"
+			android:background="?android:attr/actionBarItemBackground"
+			android:contentDescription="@string/additional_data_content"
+			android:padding="2dp"
+			android:src="@drawable/ic_action_info"
+			app:layout_constraintEnd_toStartOf="@id/button_photo"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<ImageButton
+			android:id="@+id/button_photo"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="?android:attr/actionBarItemBackground"
+			android:contentDescription="@string/label_take_photo"
+			android:padding="2dp"
+			android:src="@drawable/ic_action_photo"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<TextView
+			android:id="@+id/text_checking_label"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/component_vertical_margin"
+			android:text="@string/label_tag_instructions"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toBottomOf="@id/text_id_label" />
+
+		<CheckBox
+			android:id="@+id/feet_ok"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:checked="true"
+			android:paddingEnd="@dimen/component_horizontal_margin"
+			android:paddingRight="@dimen/component_horizontal_margin"
+			android:text="@string/label_feet"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toBottomOf="@id/text_checking_label" />
+
+		<CheckBox
+			android:id="@+id/teeth_ok"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:checked="true"
+			android:paddingEnd="@dimen/component_horizontal_margin"
+			android:paddingRight="@dimen/component_horizontal_margin"
+			android:text="@string/label_teeth"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			app:layout_constraintLeft_toRightOf="@id/feet_ok"
+			app:layout_constraintTop_toBottomOf="@id/text_checking_label" />
+
+		<CheckBox
+			android:id="@+id/udder_ok"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:checked="true"
+			android:paddingEnd="@dimen/component_horizontal_margin"
+			android:paddingRight="@dimen/component_horizontal_margin"
+			android:text="@string/label_udder"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			app:layout_constraintLeft_toRightOf="@id/teeth_ok"
+			app:layout_constraintTop_toBottomOf="@id/text_checking_label" />
+
+		<CheckBox
+			android:id="@+id/dose_given"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:checked="true"
+			android:text="@string/label_dose"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			app:layout_constraintLeft_toRightOf="@id/udder_ok"
+			app:layout_constraintTop_toBottomOf="@id/text_checking_label" />
+
+		<androidx.constraintlayout.widget.Barrier
+			android:id="@+id/weight_barrier"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			app:barrierDirection="bottom"
+			app:constraint_referenced_ids="text_checking_label,feet_ok,teeth_ok,udder_ok,dose_given" />
+
+		<TextView
+			android:id="@+id/text_weight_label"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:labelFor="@id/text_person"
+			android:text="@string/additional_data_weight"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			app:layout_constraintBaseline_toBaselineOf="@id/text_weight"
+			app:layout_constraintStart_toStartOf="parent" />
+
+		<EditText
+			android:id="@+id/text_weight"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="@dimen/label_horizontal_margin"
+			android:layout_marginLeft="@dimen/label_horizontal_margin"
+			android:cursorVisible="true"
+			android:focusable="true"
+			android:hint="@string/hint_weight"
+			android:importantForAutofill="no"
+			android:inputType="numberDecimal"
+			android:maxLines="1"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toEndOf="@id/text_weight_label"
+			app:layout_constraintTop_toBottomOf="@id/weight_barrier" />
+
+		<androidx.constraintlayout.widget.Barrier
+			android:id="@+id/comment_barrier"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			app:barrierDirection="bottom"
+			app:constraint_referenced_ids="weight_barrier,text_weight_label,text_weight" />
+
+		<TextView
+			android:id="@+id/text_comment_label"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:labelFor="@id/text_person"
+			android:text="@string/additional_data_comments"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@id/comment_barrier" />
+
+		<EditText
+			android:id="@+id/text_comment"
+			android:layout_width="0dp"
+			android:layout_height="140dp"
+			android:cursorVisible="true"
+			android:focusable="true"
+			android:gravity="start"
+			android:hint="@string/hint_comments"
+			android:importantForAutofill="no"
+			android:inputType="text|textAutoCorrect|textMultiLine|textCapSentences"
+			android:scrollbars="vertical"
+			android:textAlignment="viewStart"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@id/text_comment_label" />
+		<!-- TODO: scrolling is dodgy here - hard to do with selection at the same time; also, selection moving to the end doesn't work well -->
+
+	</androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

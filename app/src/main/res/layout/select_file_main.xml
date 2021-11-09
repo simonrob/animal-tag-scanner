@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout
+		android:id="@+id/path_bar_container"
+		style="?android:attr/actionBarStyle"
+		android:layout_width="match_parent"
+		android:layout_height="?android:attr/actionBarSize"
+		android:orientation="horizontal">
+
+		<ImageButton
+			android:id="@+id/path_bar_icon"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_gravity="center_vertical"
+			android:background="?android:attr/actionBarItemBackground"
+			android:contentDescription="@string/menu_cancel"
+			android:paddingLeft="16dp"
+			android:paddingRight="16dp"
+			android:src="?android:attr/homeAsUpIndicator" />
+
+		<HorizontalScrollView
+			android:id="@+id/path_bar"
+			android:layout_width="match_parent"
+			android:layout_height="?android:attr/actionBarSize"
+			android:layout_marginStart="16dp"
+			android:layout_marginLeft="16dp"
+			android:layout_marginEnd="0dp"
+			android:layout_marginRight="0dp">
+
+			<TextView
+				android:id="@+id/path"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:maxLines="1"
+				android:paddingStart="0dp"
+				android:paddingLeft="0dp"
+				android:paddingEnd="18dp"
+				android:paddingRight="18dp"
+				android:scrollHorizontally="true"
+				android:textColor="@color/cardview_dark_background"
+				android:textFontWeight="600"
+				android:textIsSelectable="false"
+				android:textSize="20sp"
+				android:textStyle="bold" /><!-- font weight of 600 matches platform > API 21; before that, bold is nearest -->
+
+		</HorizontalScrollView>
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_below="@id/path_bar_container"
+		android:orientation="vertical">
+
+		<ListView
+			android:id="@android:id/list"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:scrollbarAlwaysDrawVerticalTrack="true" />
+
+		<TextView
+			android:id="@android:id/empty"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center"
+			android:text="@string/session_history_empty"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+	</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:paddingHorizontal="24dp"
+	android:paddingVertical="@dimen/component_vertical_margin">
+
+	<!--	<com.google.android.material.textfield.TextInputLayout-->
+	<!--		android:layout_width="match_parent"-->
+	<!--		android:layout_height="wrap_content">-->
+
+	<!--		<com.google.android.material.textfield.TextInputEditText-->
+	<!--			android:id="@+id/text_person"-->
+	<!--			android:layout_width="match_parent"-->
+	<!--			android:layout_height="wrap_content"-->
+	<!--			android:hint="The name of the person scanning this session"-->
+	<!--			android:imeOptions="actionDone"-->
+	<!--			android:inputType="text|textAutoComplete|textPersonName|textCapWords"-->
+	<!--			android:maxLines="1" />-->
+
+	<!--	</com.google.android.material.textfield.TextInputLayout>-->
+
+	<TextView
+		android:id="@+id/scanner_info"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:text="Scanner disconnected" />
+
+	<TextView
+		android:id="@+id/text_person_label"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:labelFor="@id/text_person"
+		android:text="@string/label_operator"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		app:layout_constraintBaseline_toBaselineOf="@id/text_person"
+		app:layout_constraintStart_toStartOf="parent" />
+
+	<EditText
+		android:id="@+id/text_person"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="@dimen/label_horizontal_margin"
+		android:layout_marginLeft="@dimen/label_horizontal_margin"
+		android:layout_marginTop="@dimen/component_vertical_margin"
+		android:hint="@string/hint_operator"
+		android:importantForAutofill="no"
+		android:inputType="text|textPersonName|textCapWords|textAutoComplete"
+		android:maxLines="1"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toEndOf="@id/text_person_label"
+		app:layout_constraintTop_toBottomOf="@id/scanner_info" />
+
+	<androidx.appcompat.widget.SwitchCompat
+		android:id="@+id/switch_manual"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/component_vertical_margin"
+		android:text="@string/label_manual_entry"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/text_person" />
+
+	<androidx.appcompat.widget.SwitchCompat
+		android:id="@+id/switch_continuous"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/component_vertical_margin"
+		android:text="@string/label_continuous_scanning"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/switch_manual" />
+
+	<TextView
+		android:id="@+id/additional_data_header"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/activity_vertical_margin"
+		android:text="@string/label_imported_data"
+		android:textAppearance="?android:attr/textAppearanceSearchResultTitle"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/switch_continuous" />
+
+	<androidx.appcompat.widget.SwitchCompat
+		android:id="@+id/switch_show_additional_data"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/component_vertical_margin"
+		android:text="@string/label_display_automatically"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/additional_data_header" />
+
+	<Button
+		android:id="@+id/button_import_additional_data"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/component_vertical_margin"
+		android:text="@string/button_import"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/switch_show_additional_data" />
+
+	<Button
+		android:id="@+id/button_export_additional_data"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="@dimen/component_vertical_margin"
+		android:layout_marginLeft="@dimen/component_vertical_margin"
+		android:layout_marginTop="@dimen/component_vertical_margin"
+		android:text="@string/button_export"
+		app:layout_constraintBaseline_toBaselineOf="@id/button_import_additional_data"
+		app:layout_constraintStart_toEndOf="@id/button_import_additional_data" />
+</androidx.constraintlayout.widget.ConstraintLayout>

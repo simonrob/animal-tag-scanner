@@ -1,0 +1,33 @@
+ac/robinson/animaltagscanner/TagEntryModel.java
+ ac.robinson.animaltagscanner.TagEntryModel
+ ac.robinson.animaltagscanner.TagEntryModel$1
+ac/robinson/animaltagscanner/AdditionalDataModel.java
+ ac.robinson.animaltagscanner.AdditionalDataModel
+ac/robinson/animaltagscanner/TagScannerActivity.java
+ ac.robinson.animaltagscanner.TagScannerActivity
+ ac.robinson.animaltagscanner.TagScannerActivity$1
+ ac.robinson.animaltagscanner.TagScannerActivity$AttachEventHandler
+ ac.robinson.animaltagscanner.TagScannerActivity$DetachEventHandler
+ ac.robinson.animaltagscanner.TagScannerActivity$ErrorEventHandler
+ ac.robinson.animaltagscanner.TagScannerActivity$RFIDTagEventHandler
+ac/robinson/animaltagscanner/BuildConfig.java
+ ac.robinson.animaltagscanner.BuildConfig
+ac/robinson/animaltagscanner/TagListAdapter.java
+ ac.robinson.animaltagscanner.TagListAdapter
+ ac.robinson.animaltagscanner.TagListAdapter$1
+ ac.robinson.animaltagscanner.TagListAdapter$CommentFocusChangeListener
+ ac.robinson.animaltagscanner.TagListAdapter$CommentTextWatcher
+ ac.robinson.animaltagscanner.TagListAdapter$DoseCheckedChangeListener
+ ac.robinson.animaltagscanner.TagListAdapter$FeetCheckedChangeListener
+ ac.robinson.animaltagscanner.TagListAdapter$InfoClickListener
+ ac.robinson.animaltagscanner.TagListAdapter$PhotoClickListener
+ ac.robinson.animaltagscanner.TagListAdapter$TagClickListener
+ ac.robinson.animaltagscanner.TagListAdapter$TagFocusChangeListener
+ ac.robinson.animaltagscanner.TagListAdapter$TagTextWatcher
+ ac.robinson.animaltagscanner.TagListAdapter$TagViewHolder
+ ac.robinson.animaltagscanner.TagListAdapter$TeethCheckedChangeListener
+ ac.robinson.animaltagscanner.TagListAdapter$UdderCheckedChangeListener
+ ac.robinson.animaltagscanner.TagListAdapter$WeightTextWatcher
+ac/robinson/animaltagscanner/SelectFileActivity.java
+ ac.robinson.animaltagscanner.SelectFileActivity
+ ac.robinson.animaltagscanner.SelectFileActivity$StyledSimpleAdapter

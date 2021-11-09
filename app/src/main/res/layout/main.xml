@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<androidx.constraintlayout.widget.ConstraintLayout
+				android:id="@+id/session_parameters"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+				android:layout_marginTop="@dimen/component_vertical_margin">
+
+				<TextView
+					android:id="@+id/text_purpose_label"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:labelFor="@id/text_person"
+					android:text="@string/label_session_purpose"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					app:layout_constraintBaseline_toBaselineOf="@id/text_purpose"
+					app:layout_constraintStart_toStartOf="parent" />
+
+				<EditText
+					android:id="@+id/text_purpose"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="@dimen/label_horizontal_margin"
+					android:layout_marginLeft="@dimen/label_horizontal_margin"
+					android:hint="@string/hint_session_purpose"
+					android:importantForAutofill="no"
+					android:inputType="text|textCapSentences|textAutoCorrect"
+					android:maxLines="1"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toEndOf="@id/text_purpose_label"
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<!--		<com.google.android.material.textfield.TextInputLayout-->
+				<!--			android:id="@+id/text_purpose_container"-->
+				<!--			android:layout_width="match_parent"-->
+				<!--			android:layout_height="wrap_content"-->
+				<!--			app:layout_constraintEnd_toEndOf="parent"-->
+				<!--			app:layout_constraintStart_toStartOf="parent"-->
+				<!--			app:layout_constraintTop_toTopOf="parent">-->
+
+				<!--			<com.google.android.material.textfield.TextInputEditText-->
+				<!--				android:id="@+id/text_purpose"-->
+				<!--				android:layout_width="match_parent"-->
+				<!--				android:layout_height="wrap_content"-->
+				<!--				android:hint="What is this session for?"-->
+				<!--				android:inputType="text|textCapSentences|textAutoCorrect"-->
+				<!--				android:maxLines="1" />-->
+
+				<!--		</com.google.android.material.textfield.TextInputLayout>-->
+
+				<TextView
+					android:id="@+id/text_checking_label"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/component_vertical_margin"
+					android:text="@string/label_session_checking_tasks"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					app:layout_constraintLeft_toLeftOf="parent"
+					app:layout_constraintTop_toBottomOf="@id/text_purpose" />
+
+				<CheckBox
+					android:id="@+id/check_feet"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/label_feet"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					app:layout_constraintLeft_toLeftOf="parent"
+					app:layout_constraintTop_toBottomOf="@id/text_checking_label" />
+
+				<CheckBox
+					android:id="@+id/check_teeth"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="@dimen/component_horizontal_margin"
+					android:layout_marginLeft="@dimen/component_horizontal_margin"
+					android:text="@string/label_teeth"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					app:layout_constraintLeft_toRightOf="@id/check_feet"
+					app:layout_constraintTop_toBottomOf="@id/text_checking_label" />
+
+				<CheckBox
+					android:id="@+id/check_udder"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="@dimen/component_horizontal_margin"
+					android:layout_marginLeft="@dimen/component_horizontal_margin"
+					android:text="@string/label_udder"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					app:layout_constraintLeft_toRightOf="@id/check_teeth"
+					app:layout_constraintTop_toBottomOf="@id/text_checking_label" />
+
+				<TextView
+					android:id="@+id/text_recording_label"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/component_vertical_margin"
+					android:text="@string/label_session_recording_tasks"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					app:layout_constraintLeft_toLeftOf="parent"
+					app:layout_constraintTop_toBottomOf="@id/check_teeth" />
+
+				<CheckBox
+					android:id="@+id/record_weight"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/label_weight"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					app:layout_constraintLeft_toLeftOf="parent"
+					app:layout_constraintTop_toBottomOf="@id/text_recording_label" />
+
+				<CheckBox
+					android:id="@+id/record_dose"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="@dimen/component_horizontal_margin"
+					android:layout_marginLeft="@dimen/component_horizontal_margin"
+					android:labelFor="@id/record_dose_comment"
+					android:text="@string/label_dose"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					app:layout_constraintLeft_toRightOf="@id/record_weight"
+					app:layout_constraintTop_toBottomOf="@id/text_recording_label" />
+
+				<EditText
+					android:id="@+id/record_dose_comment"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="@dimen/label_horizontal_margin"
+					android:layout_marginLeft="@dimen/label_horizontal_margin"
+					android:hint="@string/hint_dose"
+					android:importantForAutofill="no"
+					android:inputType="text|textCapSentences"
+					android:maxLines="1"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					app:layout_constraintBaseline_toBaselineOf="@id/record_dose"
+					app:layout_constraintLeft_toRightOf="@id/record_dose"
+					app:layout_constraintRight_toRightOf="parent"
+					app:layout_constraintTop_toBottomOf="@id/text_recording_label" />
+
+				<!--		<com.google.android.material.textfield.TextInputLayout-->
+				<!--			android:id="@+id/record_dose_comment_container"-->
+				<!--			android:layout_width="0dp"-->
+				<!--			android:layout_height="wrap_content"-->
+				<!--			android:layout_marginStart="@dimen/label_horizontal_margin"-->
+				<!--			android:layout_marginLeft="@dimen/label_horizontal_margin"-->
+				<!--			app:layout_constraintBaseline_toBaselineOf="@id/record_dose"-->
+				<!--			app:layout_constraintLeft_toRightOf="@id/record_dose"-->
+				<!--			app:layout_constraintRight_toRightOf="parent"-->
+				<!--			app:layout_constraintTop_toBottomOf="@id/text_recording_label">-->
+
+				<!--			<com.google.android.material.textfield.TextInputEditText-->
+				<!--				android:id="@+id/record_dose_comment"-->
+				<!--				android:layout_width="match_parent"-->
+				<!--				android:layout_height="wrap_content"-->
+				<!--				android:hint="What is being given?"-->
+				<!--				android:imeOptions="actionDone"-->
+				<!--				android:inputType="text|textCapSentences"-->
+				<!--				android:maxLines="1" />-->
+
+				<!--		</com.google.android.material.textfield.TextInputLayout>-->
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/component_vertical_margin"
+					android:text="@string/label_session_entries"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					app:layout_constraintLeft_toLeftOf="parent"
+					app:layout_constraintTop_toBottomOf="@id/record_dose_comment" />
+
+			</androidx.constraintlayout.widget.ConstraintLayout>
+
+			<ViewSwitcher
+				android:id="@+id/switcher"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_below="@id/session_parameters">
+
+				<TextView
+					android:id="@+id/empty_view"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+					android:layout_marginVertical="@dimen/activity_vertical_margin"
+					android:gravity="center"
+					android:text="@string/empty_session_hint"
+					android:textAppearance="?android:attr/textAppearanceMedium" />
+
+				<androidx.recyclerview.widget.RecyclerView
+					android:id="@+id/recycler_view"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:orientation="horizontal"
+					app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+			</ViewSwitcher>
+
+			<RelativeLayout
+				android:layout_width="0dp"
+				android:layout_height="0dp"
+				android:layout_alignStart="@id/switcher"
+				android:layout_alignLeft="@id/switcher"
+				android:layout_alignTop="@id/switcher"
+				android:layout_alignEnd="@id/switcher"
+				android:layout_alignRight="@id/switcher"
+				android:layout_alignBottom="@id/switcher">
+
+				<ProgressBar
+					android:id="@+id/scan_progress"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerInParent="true"
+					android:indeterminate="true"
+					android:visibility="invisible" />
+			</RelativeLayout>
+		</RelativeLayout>
+	</ScrollView>
+
+	<com.google.android.material.floatingactionbutton.FloatingActionButton
+		android:id="@+id/button_scan"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom|end"
+		android:layout_margin="16dp"
+		android:contentDescription="@string/label_scan_tag"
+		android:src="@drawable/ic_action_scan"
+		app:elevation="6dp" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

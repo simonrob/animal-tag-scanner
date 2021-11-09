@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="ac.robinson.animaltagscanner"
+	android:versionCode="1"
+	android:versionName="1.0">
+
+	<uses-feature
+		android:name="android.hardware.usb.host"
+		android:required="false" />
+
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<!-- TODO: do we need read permission to do file.exists()? (is this why some phones required an existing directory?) -->
+
+	<application
+		android:allowBackup="true"
+		android:icon="@mipmap/ic_launcher"
+		android:label="@string/app_name"
+		android:requestLegacyExternalStorage="true"
+		android:theme="@style/AppTheme">
+		<activity
+			android:name=".TagScannerActivity"
+			android:exported="true"
+			android:label="@string/app_name"
+			android:windowSoftInputMode="adjustResize">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity
+			android:name=".SelectFileActivity"
+			android:label="@string/export_chooser" />
+
+		<provider
+			android:name="androidx.core.content.FileProvider"
+			android:authorities="${applicationId}.fileprovider"
+			android:exported="false"
+			android:grantUriPermissions="true">
+			<meta-data
+				android:name="android.support.FILE_PROVIDER_PATHS"
+				android:resource="@xml/provider_paths" />
+		</provider>
+
+	</application>
+
+</manifest>

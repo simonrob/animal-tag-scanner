@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:paddingHorizontal="24dp"
+	android:paddingVertical="@dimen/component_vertical_margin">
+
+	<TextView
+		android:id="@+id/text_name_label"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:labelFor="@id/text_name"
+		android:text="@string/additional_data_name"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textStyle="bold"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<TextView
+		android:id="@+id/text_name"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="@dimen/label_horizontal_margin"
+		android:layout_marginLeft="@dimen/label_horizontal_margin"
+		android:ellipsize="end"
+		android:singleLine="true"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		app:layout_constraintBaseline_toBaselineOf="@id/text_name_label"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toEndOf="@id/text_name_label"
+		tools:text="Animal's name" />
+
+	<TextView
+		android:id="@+id/text_mother_label"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/component_vertical_margin"
+		android:labelFor="@id/text_mother"
+		android:text="@string/additional_data_mother"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textStyle="bold"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/text_name_label" />
+
+	<TextView
+		android:id="@+id/text_mother"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="@dimen/label_horizontal_margin"
+		android:layout_marginLeft="@dimen/label_horizontal_margin"
+		android:ellipsize="end"
+		android:singleLine="true"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		app:layout_constraintBaseline_toBaselineOf="@id/text_mother_label"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toEndOf="@id/text_mother_label"
+		tools:text="Animal's mother" />
+
+	<TextView
+		android:id="@+id/text_father_label"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/component_vertical_margin"
+		android:labelFor="@id/text_father"
+		android:text="@string/additional_data_father"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textStyle="bold"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/text_mother_label" />
+
+	<TextView
+		android:id="@+id/text_father"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="@dimen/label_horizontal_margin"
+		android:layout_marginLeft="@dimen/label_horizontal_margin"
+		android:ellipsize="end"
+		android:singleLine="true"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		app:layout_constraintBaseline_toBaselineOf="@id/text_father_label"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toEndOf="@id/text_father_label"
+		tools:text="Animal's father" />
+
+	<TextView
+		android:id="@+id/text_weight_label"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/component_vertical_margin"
+		android:labelFor="@id/text_weight"
+		android:text="@string/additional_data_weight"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textStyle="bold"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/text_father_label" />
+
+	<TextView
+		android:id="@+id/text_weight"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="@dimen/label_horizontal_margin"
+		android:layout_marginLeft="@dimen/label_horizontal_margin"
+		android:ellipsize="end"
+		android:singleLine="true"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		app:layout_constraintBaseline_toBaselineOf="@id/text_weight_label"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toEndOf="@id/text_weight_label"
+		tools:text="Animal's weight" />
+
+	<TextView
+		android:id="@+id/text_additional_comments_label"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/component_vertical_margin"
+		android:labelFor="@id/text_additional_comments"
+		android:text="@string/additional_data_comments"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textStyle="bold"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/text_weight_label" />
+
+	<TextView
+		android:id="@+id/text_additional_comments"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:ellipsize="end"
+		android:singleLine="true"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/text_additional_comments_label"
+		tools:text="Comments about this animal" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

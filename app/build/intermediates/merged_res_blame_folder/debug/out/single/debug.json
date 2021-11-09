@@ -1,0 +1,254 @@
+[
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-anydpi-v21_ic_action_photo.xml.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_action_photo.xml"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/layout_select_file_row.xml.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/layout/select_file_row.xml"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_action_photo.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/drawable-xxhdpi/ic_action_photo.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/layout_tag_entry.xml.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/layout/tag_entry.xml"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-xhdpi_ic_action_info.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/drawable-xhdpi/ic_action_info.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_action_scan.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/drawable-mdpi/ic_action_scan.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/xml_provider_paths.xml.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/xml/provider_paths.xml"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_action_scan.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/drawable-hdpi/ic_action_scan.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-xhdpi_ic_action_share.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/drawable-xhdpi/ic_action_share.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-ldpi_ic_action_info.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/generated/res/pngs/debug/drawable-ldpi/ic_action_info.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_action_share.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/drawable-hdpi/ic_action_share.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/menu_menu.xml.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/menu/menu.xml"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-xhdpi_ic_action_settings.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/drawable-xhdpi/ic_action_settings.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-xhdpi_ic_action_scan.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/drawable-xhdpi/ic_action_scan.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-ldpi_ic_action_photo.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/generated/res/pngs/debug/drawable-ldpi/ic_action_photo.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-anydpi-v21_ic_action_info.xml.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_action_info.xml"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-anydpi-v21_ic_action_settings.xml.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_action_settings.xml"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_ic_action_info.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_action_info.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_action_scan.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/drawable-xxhdpi/ic_action_scan.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-anydpi-v21_ic_launcher_foreground.xml.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-xhdpi_ic_action_photo.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/drawable-xhdpi/ic_action_photo.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/layout_main.xml.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_action_settings.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/drawable-mdpi/ic_action_settings.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/layout_additional_data_dialog.xml.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/layout/additional_data_dialog.xml"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_action_share.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/drawable-xxhdpi/ic_action_share.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_ic_action_share.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_action_share.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-ldpi_ic_action_share.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/generated/res/pngs/debug/drawable-ldpi/ic_action_share.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/raw_imported_content.csv.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/raw/imported_content.csv"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/layout_select_file_main.xml.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/layout/select_file_main.xml"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-ldpi_ic_action_scan.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/generated/res/pngs/debug/drawable-ldpi/ic_action_scan.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_action_share.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/drawable-mdpi/ic_action_share.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_action_info.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/drawable-hdpi/ic_action_info.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_action_photo.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/drawable-hdpi/ic_action_photo.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_action_photo.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/drawable-mdpi/ic_action_photo.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-anydpi-v21_ic_action_share.xml.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_action_share.xml"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_action_info.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/drawable-mdpi/ic_action_info.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_ic_action_photo.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_action_photo.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-ldpi_ic_action_settings.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/generated/res/pngs/debug/drawable-ldpi/ic_action_settings.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-anydpi-v21_ic_action_scan.xml.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_action_scan.xml"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_action_settings.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/drawable-hdpi/ic_action_settings.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_action_info.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/drawable-xxhdpi/ic_action_info.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_ic_action_scan.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_action_scan.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_action_settings.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/drawable-xxhdpi/ic_action_settings.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_ic_action_settings.png.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_action_settings.png"
+    },
+    {
+        "merged": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/merged_res/debug/layout_settings_dialog.xml.flat",
+        "source": "/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/res/layout/settings_dialog.xml"
+    }
+]

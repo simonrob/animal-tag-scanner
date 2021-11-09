@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ac.robinson.animaltagscanner"
+4    android:versionCode="3"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml
+10
+11    <uses-feature
+11-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:7:2-9:30
+12        android:name="android.hardware.usb.host"
+12-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:8:3-43
+13        android:required="false" />
+13-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:9:3-27
+14
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:11:2-78
+15-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:11:19-75
+16
+17    <!-- TODO: do we need read permission to do file.exists()? (is this why some phones required an existing directory?) -->
+18    <application
+18-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:14:2-45:16
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.5.0] /Users/simon/.gradle/caches/transforms-3/97e7ec19bd11dff7ae3d399ac9d0fa5b/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:15:3-37
+22        android:label="@string/app_name"
+22-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:16:3-35
+23        android:requestLegacyExternalStorage="true"
+23-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:17:3-46
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:18:3-34
+26        <activity
+26-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:19:3-29:14
+27            android:name="ac.robinson.animaltagscanner.TagScannerActivity"
+27-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:20:4-38
+28            android:exported="true"
+28-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:21:4-27
+29            android:label="@string/app_name"
+29-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:22:4-36
+30            android:windowSoftInputMode="adjustResize" >
+30-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:23:4-46
+31            <intent-filter>
+31-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:24:4-28:20
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:25:5-57
+32-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:25:13-54
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:27:5-65
+34-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:27:15-62
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:31:3-33:45
+38            android:name="ac.robinson.animaltagscanner.SelectFileActivity"
+38-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:32:4-38
+39            android:label="@string/export_chooser" />
+39-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:33:4-42
+40
+41        <provider
+42            android:name="androidx.core.content.FileProvider"
+42-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:36:4-53
+43            android:authorities="ac.robinson.animaltagscanner.fileprovider"
+43-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:37:4-55
+44            android:exported="false"
+44-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:38:4-28
+45            android:grantUriPermissions="true" >
+45-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:39:4-38
+46            <meta-data
+46-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:40:4-42:46
+47                android:name="android.support.FILE_PROVIDER_PATHS"
+47-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:41:5-55
+48                android:resource="@xml/provider_paths" />
+48-->/Users/simon/Documents/Repositories/animal-tag-scanner/app/src/main/AndroidManifest.xml:42:5-43
+49        </provider>
+50    </application>
+51
+52</manifest>

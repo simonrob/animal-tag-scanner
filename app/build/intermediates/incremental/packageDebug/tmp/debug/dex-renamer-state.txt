@@ -1,0 +1,4 @@
+#Tue Nov 09 14:52:28 GMT 2021
+base.0=/Users/simon/Documents/Repositories/animal-tag-scanner/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
